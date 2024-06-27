@@ -26,6 +26,7 @@ public class Session {
     private String title;
     private String description;
     private String imgUrl;
+    private String sessionUrl;
     private String remote;
     private Date date;
 }

@@ -1,30 +1,41 @@
 package com.ingresso.api.domain.address;
 
-import com.ingresso.api.domain.session.Session;
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 import java.util.UUID;
 
 @Entity
 @Table(name = "adress")
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
 public class Adress {
-
     @Id
-    @GeneratedValue
     private UUID id;
-
+    private String street;
     private String city;
-    private String uf;
 
-    @ManyToOne
-    @JoinColumn(name = "session_id")
-    private Session session;
+    // Getters e setters
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
 }

@@ -1,10 +1,9 @@
 package com.ingresso.api.repositories;
 
-
-import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails;
+import com.ingresso.api.domain.address.Adress;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface AdressRepository extends JpaRepository<RabbitConnectionDetails.Address, UUID> {
+public interface AdressRepository extends JpaRepository<Adress, UUID> {
 }
