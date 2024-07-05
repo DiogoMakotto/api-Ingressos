@@ -14,11 +14,11 @@ A API para gerenciamento de ingressos de eventos, desenvolvida em Java com Sprin
 
 ### *Desenho Solução:* 
 <div align="center">
-<img src="./src/main/resources/img/DesenhoSolucao.jpg" alt="Desenho Solução" width="500"/>
+<img src="./api-Ingressos/src/main/resources/img/DesenhoSolucao.jpg" alt="Desenho Solução" width="500"/>
 </div>
 
 ### *AWS Console:*
-![Desenho Solução API](./src/main/resources/img/AWS%20console.jpg)
+![Desenho Solução API](./api-Ingressos/src/main/resources/img/AWS%20console.jpg)
 
 
 
