@@ -1,9 +1,7 @@
 package com.ingresso.api.domain.session;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import com.ingresso.api.domain.address.Address;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,6 +25,11 @@ public class Session {
     private String description;
     private String imgUrl;
     private String sessionUrl;
-    private String remote;
+    private boolean remote;
     private Date date;
+
+    @OneToOne(mappedBy = "session", cascade = CascadeType.ALL)
+    private Address address;
+
+
 }
