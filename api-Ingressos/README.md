@@ -1,4 +1,5 @@
-# api-Ingressos
+# api-Ingressos - Java + AWS
+
 
 [![Java](https://img.shields.io/badge/Java-17-blue)](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.0-brightgreen)](https://spring.io/projects/spring-boot)
@@ -11,7 +12,12 @@ A API para gerenciamento de ingressos de eventos, desenvolvida em Java com Sprin
 
 ## Demonstração
 
-> **Nota:** Insira aqui capturas de tela, gifs ou links para vídeos que mostram a aplicação em funcionamento.
+### *Desenho Solução:* 
+![Desenho Solução API](./src/main/resources/img/DesenhoSolucao.jpg)
+
+
+### *AWS Console*
+![Desenho Solução API](./src/main/resources/img/AWS%20console.jpg)
 
 ## Funcionalidades
 
